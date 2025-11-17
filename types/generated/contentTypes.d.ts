@@ -725,6 +725,34 @@ export interface ApiPeoplewebpPeoplewebp extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiPoster2Poster2 extends Struct.SingleTypeSchema {
+  collectionName: 'poster2s';
+  info: {
+    displayName: 'poster2';
+    pluralName: 'poster2s';
+    singularName: 'poster2';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::poster2.poster2'
+    > &
+      Schema.Attribute.Private;
+    poster2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiPoster3Poster3 extends Struct.SingleTypeSchema {
   collectionName: 'poster3s';
   info: {
@@ -1469,6 +1497,7 @@ declare module '@strapi/strapi' {
       'api::film.film': ApiFilmFilm;
       'api::healthcare.healthcare': ApiHealthcareHealthcare;
       'api::peoplewebp.peoplewebp': ApiPeoplewebpPeoplewebp;
+      'api::poster2.poster2': ApiPoster2Poster2;
       'api::poster3.poster3': ApiPoster3Poster3;
       'api::poster4.poster4': ApiPoster4Poster4;
       'api::poster5.poster5': ApiPoster5Poster5;
