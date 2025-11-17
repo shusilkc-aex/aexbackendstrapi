@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "aeros",
+  "info": {
+    "singularName": "aero",
+    "pluralName": "aeros",
+    "displayName": "aero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aero": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "demo3s",
+  "info": {
+    "singularName": "demo3",
+    "pluralName": "demo3s",
+    "displayName": "demo3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "demo3": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

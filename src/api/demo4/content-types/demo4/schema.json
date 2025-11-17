@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "demo4s",
+  "info": {
+    "singularName": "demo4",
+    "pluralName": "demo4s",
+    "displayName": "demo4"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "demo4": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

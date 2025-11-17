@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "red_logos",
+  "info": {
+    "singularName": "red-logo",
+    "pluralName": "red-logos",
+    "displayName": "redLogo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "redLogo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

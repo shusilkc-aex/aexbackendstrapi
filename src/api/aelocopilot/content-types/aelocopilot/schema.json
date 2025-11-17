@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "aelocopilots",
+  "info": {
+    "singularName": "aelocopilot",
+    "pluralName": "aelocopilots",
+    "displayName": "aelocopilot"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aeloCopilot": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

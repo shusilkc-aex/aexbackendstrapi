@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "white_logos",
+  "info": {
+    "singularName": "white-logo",
+    "pluralName": "white-logos",
+    "displayName": "whiteLogo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "whiteLogo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

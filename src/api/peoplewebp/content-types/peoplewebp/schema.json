@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "peoplewebps",
+  "info": {
+    "singularName": "peoplewebp",
+    "pluralName": "peoplewebps",
+    "displayName": "peoplewebp"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "peoplewebp": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

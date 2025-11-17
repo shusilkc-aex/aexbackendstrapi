@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "poster4s",
+  "info": {
+    "singularName": "poster4",
+    "pluralName": "poster4s",
+    "displayName": "poster4"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "poster4": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

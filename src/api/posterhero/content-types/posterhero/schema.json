@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "posterheroes",
+  "info": {
+    "singularName": "posterhero",
+    "pluralName": "posterheroes",
+    "displayName": "posterhero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "posterhero": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
