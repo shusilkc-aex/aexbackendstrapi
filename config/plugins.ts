@@ -6,7 +6,8 @@ module.exports = ({ env }) => ({
       providerOptions: {
         account: env("STORAGE_ACCOUNT_NAME"),              
         accountKey: env("STORAGE_ACCOUNT_KEY"), 
-        containerName: env("BLOB_CONTAINER_NAME")
+        containerName: env("BLOB_CONTAINER_NAME"),
+        authType: env("STORAGE_AUTH_TYPE", "default"),
       },
     },
   },
