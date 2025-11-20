@@ -5,9 +5,8 @@ module.exports = ({ env }) => ({
       provider: 'strapi-provider-upload-azure-storage',
       providerOptions: {
         account: env('STORAGE_ACCOUNT_NAME'),              
-        accountKey: env('STORAGE_ACCOUNT_KEY'), 
         containerName: env('BLOB_CONTAINER_NAME'),
-        authType: env('STORAGE_AUTH_TYPE', 'msi'),
+        authType: env('STORAGE_AUTH_TYPE'),
         defaultPath: 'uploads',
       },
     },
