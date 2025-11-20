@@ -3,10 +3,10 @@ export default ({ env }) => ({
     config: {
       provider: 'strapi-provider-upload-azure-storage',
       providerOptions: {
-        account: env('AZURE_STORAGE_ACCOUNT'),
-        accountKey: env('AZURE_STORAGE_ACCOUNT_KEY'),
-        container: env('AZURE_STORAGE_CONTAINER'),
-        endpoint: env('AZURE_STORAGE_ENDPOINT'),
+        account: env('BLOB_ACCOUNT_NAME'),
+        accountKey: env('BLOB_ACCOUNT_KEY'),
+        container: env('BLOB_CONTAINER_NAME'),
+        endpoint: env('BLOB_STORAGE_URL'),
       },
     },
   },
